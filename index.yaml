@@ -1,9 +1,31 @@
 apiVersion: v1
 entries:
+  gitlab-runner:
+  - apiVersion: v1
+    appVersion: 16.7.0
+    created: "2024-01-05T15:46:24.533889737+03:30"
+    description: GitLab Runner
+    digest: 20c5ae728363c7b61836031e4f9db7db8d92d9c66ed5910cb591e50b54604633
+    icon: https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
+    keywords:
+    - git
+    - ci
+    - deploy
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab-runner
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab-runner
+    - https://gitlab.com/gitlab-org/gitlab-runner
+    - https://docs.gitlab.com/runner/
+    urls:
+    - https://salehborhani.github.io/helm-repo/gitlab-runner-0.60.0.tgz
+    version: 0.60.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-05T15:37:40.77424926+03:30"
+    created: "2024-01-05T15:46:24.534122746+03:30"
     description: A Helm chart for Kubernetes
     digest: 50c80521ea48eeabcb9671264f82d74af13ad5e93f24128cddc46b99adfe8b80
     name: nginx
@@ -11,4 +33,4 @@ entries:
     urls:
     - https://salehborhani.github.io/helm-repo/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-05T15:37:40.773861518+03:30"
+generated: "2024-01-05T15:46:24.532803028+03:30"
